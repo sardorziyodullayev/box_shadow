@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: goldenrod;
+  box-shadow: 170px 170px 0 5px rgba(88, 88, 88, 0.5),
+    -170px -170px 0 2px rgba(173, 191, 241, 0.5),
+    -170px 170px 0 7px rgba(163, 247, 252, 0.5),
+    170px -170px 0 4px rgba(3, 250, 57, 0.5),
+    -170px 0px 0 3px rgba(255, 240, 104, 0.5),
+    170px 0px 0 2.5px rgba(250, 181, 77, 0.5),
+    0px 170px 0 3px rgba(253, 108, 31, 0.5),
+    0px -170px 0 1px rgba(253, 31, 223, 0.5);
+}
